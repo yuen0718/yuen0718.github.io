@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900i');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+
+:root{
+    --maincolor:rgb(160, 1, 1);
+}
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Roboto","NoTo sans TC";
+}
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+h2,h3{
+    margin-bottom: 20px;
+}
+p{
+    font-size: 14px;
+    line-height: 1.7em;
+    color: rgb(236, 35, 35);
+    opacity: .8;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(39, 2, 2);
+}
+
+
